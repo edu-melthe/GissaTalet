@@ -1,2 +1,10 @@
-name = input("Vad heter du?")
+namn = input("Vad heter du? ")
 print(f"Hej {namn} och välkommen till spelet!")
+
+import random as rand
+tal = rand.randint(1,10)
+gissning = input("Gissa ett tal mellan 1 och 10: ")
+if gissning == tal:
+    print("Helt rätt!!")
+else:
+    print(f"Tyvärr, det var {tal}")
