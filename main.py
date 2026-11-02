@@ -12,7 +12,9 @@ for i in range(3):
         elif gissning != tal:
             print("Det var fel")
         break
-    if i == 2:
+    if gissning == tal:
+        break
+    elif i == 2:
         print("Slut på försök")
         break
 
